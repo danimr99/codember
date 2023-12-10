@@ -1,0 +1,19 @@
+{
+  "name": "codember",
+  "version": "1.0.0",
+  "description": "Soluciones al Codember de @midudev en JavaScript",
+  "type": "module",
+  "scripts": {},
+  "keywords": [
+    "codember",
+    "challenges",
+    "midudev",
+    "javascript"
+  ],
+  "author": "Daniel Muelle Ramos",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danimr99/codember"
+  }
+}
