@@ -8,7 +8,7 @@ async function readFile() {
   }
 }
 
-function findSafeNodes(data) {
+function getSolution(data) {
   const graph = new Map();
 
   for (const [a, b] of data) {
@@ -50,11 +50,11 @@ function findSafeNodes(data) {
     }
   }
 
-  return safeNodes.sort((a, b) => a - b);
+  return safeNodes.sort((a, b) => a - b).join(",");
 }
 
 const file = await readFile();
 const data = JSON.parse(file);
-const nodes = findSafeNodes(data).join(",");
+const nodes = getSolution(data);
 
 console.log(nodes);
