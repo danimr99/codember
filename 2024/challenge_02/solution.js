@@ -65,5 +65,5 @@ async function getSolution() {
   return `${validAttempts}true${invalidAttempts}false`;
 }
 
-const result = await getSolution();
-console.log(result);
+const solution = await getSolution();
+console.log(solution);
